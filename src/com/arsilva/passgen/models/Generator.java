@@ -39,24 +39,22 @@ public class Generator {
 
 
     private char generateX() {
-        char[] x = new char[4];
+        String x = "";
 
         if (hasUppercaseLetters) {
-            x[0] = Generator.UPPERCASE_LETTERS.charAt(getRandom(Generator.UPPERCASE_LETTERS.length()));
+            x += Generator.UPPERCASE_LETTERS;
         }
         if (hasLowercaseLetters) {
-            x[1] = Generator.LOWERCASE_LETTERS.charAt(getRandom(Generator.LOWERCASE_LETTERS.length()));
+            x += Generator.LOWERCASE_LETTERS;
         }
         if(hasNumbers) {
-            x[2] = Generator.NUMBERS.charAt(getRandom(Generator.NUMBERS.length()));
+            x += Generator.NUMBERS;
         }
         if (hasSymbols) {
-            x[3] = Generator.SYMBOLS.charAt(getRandom(Generator.SYMBOLS.length()));
+            x += Generator.SYMBOLS;
         }
 
-
-
-        return x[getRandom(x.length)];
+        return x.charAt(getRandom(x.length()));
     }
 
     public String generate() {
