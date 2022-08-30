@@ -54,6 +54,8 @@ public class Generator {
             x[3] = Generator.SYMBOLS.charAt(getRandom(Generator.SYMBOLS.length()));
         }
 
+
+
         return x[getRandom(x.length)];
     }
 

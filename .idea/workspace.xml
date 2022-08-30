@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2150d977-18da-4bbe-843b-dad3ea32370c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/arsilva/passgen/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/arsilva/passgen/presenters/GeneratorPresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/arsilva/passgen/presenters/IGeneratorPresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/arsilva/passgen/views/IGeneratorView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/arsilva/passgen/views/MainForm.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/arsilva/passgen/views/MainForm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/arsilva/passgen/models/Generator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/arsilva/passgen/models/Generator.java" afterDir="false" />
     </list>
@@ -14,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -33,9 +40,30 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.arsilva.passgen.Run" />
+      <module name="PassGen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.arsilva.passgen.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Run" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
